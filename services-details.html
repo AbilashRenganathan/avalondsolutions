@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Services Details - AvalonDSolutions</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+  <style>
+    #service-details {
+      transition: opacity 0.3s;
+    }
+    .services-list a.active {
+      font-weight: bold;
+      color: #0d6efd;
+    }
+    .services-list a {
+      transition: color 0.2s, font-weight 0.2s;
+    }
+    .service-box {
+      /* Add any additional styling for the persistent service box if needed */
+    }
+  </style>
+</head>
+ 
+<body class="services-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/avalon-d-solutions.png" alt=""> 
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#pricing">Pricing</a></li>
+          <li><a href="index.html#team">Team</a></li>
+          <li><a href="blog.html">Blog</a></li>
+          <li class="dropdown"><a href="#"><span>Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="#">Dropdown 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+                <ul>
+                  <li><a href="#">Deep Dropdown 1</a></li>
+                  <li><a href="#">Deep Dropdown 2</a></li>
+                  <li><a href="#">Deep Dropdown 3</a></li>
+                  <li><a href="#">Deep Dropdown 4</a></li>
+                  <li><a href="#">Deep Dropdown 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Dropdown 2</a></li>
+              <li><a href="#">Dropdown 3</a></li>
+              <li><a href="#">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Services Details</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Services Details</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <!-- Service Details Section -->
+    <section id="service-details" class="service-details section">
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+
+            <div class="service-box">
+              <h4>Serices List</h4>
+              <div class="services-list service-box">
+                <a href="#" class="active" data-service="web-design"><i class="bi bi-arrow-right-circle"></i><span>Employment Advisory Services</span></a>
+                <a href="#" data-service="product-management"><i class="bi bi-arrow-right-circle"></i><span>CV Support</span></a>
+                <a href="#" data-service="graphic-design"><i class="bi bi-arrow-right-circle"></i><span>Career Development Services</span></a>
+                <a href="#" data-service="business-advisory"><i class="bi bi-arrow-right-circle"></i><span>Business Advisory</span></a>
+                <a href="#" data-service="business-legal"><i class="bi bi-arrow-right-circle"></i><span>Business Legal Advice</span></a>
+                <a href="#" data-service="it-support"><i class="bi bi-arrow-right-circle"></i><span>IT Support</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="service-box">
+              <h4>Download Catalog</h4>
+              <div class="download-catalog">
+                <a href="#"><i class="bi bi-filetype-pdf"></i><span>Catalog PDF</span></a>
+                <a href="#"><i class="bi bi-file-earmark-word"></i><span>Catalog DOC</span></a>
+              </div>
+            </div><!-- End Services List -->
+
+            <div class="help-box d-flex flex-column justify-content-center align-items-center">
+              <i class="bi bi-headset help-icon"></i>
+              <h4>Have a Question?</h4>
+              <p class="d-flex align-items-center mt-2 mb-0"><i class="bi bi-telephone me-2"></i> <span>+44 73 771 106 03</span></p>
+              <p class="d-flex align-items-center mt-1 mb-0"><i class="bi bi-envelope me-2"></i> <a href="mailto:info@avalondsolutions.com">info@avalondsolutions.com</a></p>
+            </div>
+
+          </div>
+
+          <div id="service-details-content" class="col-lg-8 ps-lg-5" data-aos="fade-up" data-aos-delay="200" style="transition: opacity 0.3s;">
+            <img src="assets/img/services.jpg" alt="" class="img-fluid services-img">
+            <h3>Web Design Service Title</h3>
+            <p>Web Design description goes here.</p>
+            <ul>
+              <li><i class='bi bi-check-circle'></i> <span><strong>01. Personalized Career Plans</strong><br>
+We create dedicated career development plans that align with your professional goals, helping you advance in your chosen field.</span></li>
+              <li><i class='bi bi-check-circle'></i> <span><strong>02. Interview Support</strong><br>
+Our Interview Support Services are designed to prepare you thoroughly, boost your confidence, and enhance your chances of success in securing your desired job.</span></li>
+              <li><i class='bi bi-check-circle'></i> <span><strong>03. Goal Setting and Action Plans</strong><br>
+We help you set clear, achievable career goals and develop actionable steps to reach them, ensuring continuous progress.</span></li>
+              <li><i class='bi bi-check-circle'></i> <span><strong>04. Professional Growth Strategies</strong><br>
+We provide strategies for enhancing your skills, gaining new qualifications, and positioning yourself for promotions or new opportunities.</span></li>
+            </ul>
+            <p>More details about Web Design.</p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Service Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer position-relative light-background">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/avalon-d-solutions.png" alt=""> 
+          </a>
+          <div class="social-links d-flex mt-4">
+            <a href=""><i class="bi bi-twitter-x"></i></a>
+            <a href=""><i class="bi bi-facebook"></i></a>
+            <a href=""><i class="bi bi-instagram"></i></a>
+            <a href=""><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Terms of service</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+           <li><a href="#">Employment Advisory Services</a></li>
+            <li><a href="#">CV Support</a></li>
+            <li><a href="#">Career Development Services</a></li>
+            <li><a href="#">Business Advisory</a></li>
+            <li><a href="#">Business Legal Advice</a></li>
+            <li><a href="#">IT Support</a></li> 
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>44 Broadway Gardens,</p>
+          <p>Mitcham</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+44 73 771 106 03</span></p>
+          <p><strong>Email:</strong> <span>info@avalondsolutions.com</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+              <p>&copy; <span>2025</span> <span class="sitename">AvalonDSolutions</span>. All Rights Reserved</p>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+  
+  <script>
+    const servicesData = {
+      "web-design": {
+        img: "assets/img/services1.png",
+        title: "Employment Advisory Services",
+        desc: `
+          <p></p>
+          <ul>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Personalized Job Search Strategies</strong><br>
+Tailored guidance on how to effectively search for job opportunities that align with your skills, experience, and career goals.</span></li>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Interview Preparation</strong><br>
+Expert coaching to help you confidently navigate interviews, including mock interviews and tips on answering tough questions.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Job Market Insights</strong><br>
+Up-to-date information on industry trends, demand for skills, and emerging opportunities in various sectors.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Ongoing Career Support</strong><br>
+Continuous support and follow-up to help you stay on track with your career goals, even after you’ve secured a new position.</span></li>
+          </ul>
+          <p></p>
+        `
+      },
+      "product-management": {
+        img: "assets/img/services2.png",
+        title: "Career Development Services",
+        desc: `
+          <p></p>
+          <ul>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Personalized Job Search Strategies</strong><br>
+Tailored guidance on how to effectively search for job opportunities that align with your skills, experience, and career goals.</span></li>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Interview Preparation</strong><br>
+Expert coaching to help you confidently navigate interviews, including mock interviews and tips on answering tough questions.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Goal Setting and Action Plans</strong><br>
+We help you set clear, achievable career goals and develop actionable steps to reach them, ensuring continuous progress.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Professional Growth Strategies</strong><br>
+We provide strategies for enhancing your skills, gaining new qualifications, and positioning yourself for promotions or new opportunities.</span></li>
+          </ul>
+          <p></p>
+        `
+      },
+      "graphic-design": {
+        img: "assets/img/services2.png",
+        title: "Career Development Services",
+        desc: `
+          <ul>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Personalized Career Plans</strong><br>
+We create dedicated career development plans that align with your professional goals, helping you advance in your chosen field.</span></li>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Interview Support</strong><br>
+Our Interview Support Services are designed to prepare you thoroughly, boost your confidence, and enhance your chances of success in securing your desired job.</span></li>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Goal Setting and Action Plans</strong><br>
+We help you set clear, achievable career goals and develop actionable steps to reach them, ensuring continuous progress.</span></li>
+            <li><i class='bi bi-check-circle'></i> <span><strong>Professional Growth Strategies</strong><br>
+We provide strategies for enhancing your skills, gaining new qualifications, and positioning yourself for promotions or new opportunities.</span></li>
+          </ul>
+        `
+      },
+              "business-advisory": {
+          img: "assets/img/services2.png",
+          title: "Business Advisory",
+          desc: `
+            <p></p>
+            <ul>
+              <li><i class='bi bi-check-circle'></i> <span><strong>Strategic Growth Planning</strong><br>
+We help you develop comprehensive business strategies that drive sustainable growth and profitability.</span></li>
+              <li><i class='bi bi-check-circle'></i> <span><strong>Market Analysis and Insights</strong><br>
+Our experts provide in-depth market analysis, helping you identify new opportunities and stay ahead of industry trends.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Customer Acquisition Strategies</strong><br>
+We create tailored customer acquisition plans to expand your client base and increase revenue.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Ongoing Business Support</strong><br>
+We offer continuous support and advisory services, ensuring your business remains agile and competitive in a dynamic market.</span></li>
+            </ul>
+            <p></p>
+          `
+        },
+        "business-legal": {
+          img: "assets/img/services3.png",
+          title: "Business Legal Advice",
+          desc: `
+            <p></p>
+            <ul>
+              <li><i class='bi bi-check-circle'></i> <span><strong>Comprehensive Legal Guidance</strong><br>
+We offer expert legal advice on a wide range of business matters, ensuring your company operates within the law.</span></li>
+              <li><i class='bi bi-check-circle'></i> <span><strong>Contract Drafting and Review</strong><br>
+Our legal team assists in drafting, reviewing, and negotiating contracts to protect your business interests and minimize risk.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Regulatory Compliance</strong><br>
+We help you navigate complex regulatory requirements, ensuring your business remains compliant with all applicable laws.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Risk Management</strong><br>
+We identify potential legal risks and provide strategies to mitigate them, safeguarding your business against potential liabilities.</span></li>
+            </ul>
+            <p></p>
+          `
+        },
+        "it-support": {
+          img: "assets/img/services4.png",
+          title: "IT Support",
+          desc: `
+            <p></p>
+            <ul>
+              <li><i class='bi bi-check-circle'></i> <span><strong>Website and Web App Development</strong><br>
+We create and optimize websites to ensure your online presence is professional, user-friendly, and effective in attracting and converting customers.</span></li>
+              <li><i class='bi bi-check-circle'></i> <span><strong>Digital Marketing</strong><br>
+We develop dedicated digital marketing plans, including SEO, social media, and email marketing, to boost your online visibility and engagement.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Graphic Design</strong><br>
+Designing eye-catching and professional graphics for marketing materials, social media, or branding is what we do.</span></li>
+<li><i class='bi bi-check-circle'></i> <span><strong>Presentation Development</strong><br>
+In addition to being visually appealing, our presentations are also structured to clearly convey your ideas and engage your audience.</span></li>
+            </ul>
+            <p></p>
+          `
+        },
+      
+    };
+    document.querySelectorAll('.services-list a').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault();
+        const serviceKey = this.getAttribute('data-service');
+        // Save selected service to localStorage
+        localStorage.setItem('selectedService', serviceKey);
+        // If CV Support is clicked, redirect to cv-support.html
+        if (serviceKey === 'product-management') {
+          document.getElementById('service-details-content').style.opacity = 0;
+          setTimeout(() => {
+            window.location.href = 'cv-support.html';
+          }, 300);
+          return;
+        }
+        document.querySelectorAll('.services-list a').forEach(l => l.classList.remove('active'));
+        this.classList.add('active');
+        const details = servicesData[serviceKey];
+        if (details) {
+          const detailsDiv = document.getElementById('service-details-content');
+          detailsDiv.style.opacity = 0;
+          setTimeout(() => {
+            detailsDiv.innerHTML = `
+              <img src="${details.img}" alt="" class="img-fluid services-img">
+              <h3>${details.title}</h3>
+              ${details.desc}
+            `;
+            detailsDiv.style.opacity = 1;
+          }, 300);
+        }
+      });
+    });
+
+    // On page load, check localStorage and show the correct service
+    window.addEventListener('DOMContentLoaded', () => {
+      const savedService = localStorage.getItem('selectedService');
+      if (savedService && servicesData[savedService]) {
+        // Set the active class
+        document.querySelectorAll('.services-list a').forEach(l => {
+          l.classList.toggle('active', l.getAttribute('data-service') === savedService);
+        });
+        // Show the details
+        const details = servicesData[savedService];
+        const detailsDiv = document.getElementById('service-details-content');
+        detailsDiv.innerHTML = `
+          <img src="${details.img}" alt="" class="img-fluid services-img">
+          <h3>${details.title}</h3>
+          ${details.desc}
+        `;
+        detailsDiv.style.opacity = 1;
+      }
+    });
+  </script>
+
+</body>
+
+</html>
